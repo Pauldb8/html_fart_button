@@ -1,0 +1,33 @@
+body{
+  background: linear-gradient(to right, #642b73, #c6426e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-family: "Open Sans";
+}
+
+button{
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 10px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.borders{
+  border: 1px solid red;
+}
