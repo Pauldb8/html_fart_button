@@ -1,5 +1,6 @@
 function makeFart() {
-  var audio = new Audio('fart-01.mp3');
+  var number = Math.floor(Math.random() * 5) + 1
+  var audio = new Audio('fart-0' + number + '.mp3');
   audio.play();
 }
 
